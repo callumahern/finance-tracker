@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* This is a finance tracker
+# Needs:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Authentication system - users can sign up, edit their profile and login/logout
+- Users can track stocks, upto 10 per user. Their profile page will display stocks as well as current price
+- Users can search for stocks and add and remove from portfolio
+- Users can search for friends or other users by name or email
+- Users can view other portfolios
+- App must be mobile friendly
