@@ -26,6 +26,8 @@ Devise.setup do |config|
   # with default "from" parameter.
   config.navigational_formats = ['*/*', :html, :turbo_stream]
 
+  config.sign_out_via = [:delete, :get]
+
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
 
   # Configure the class responsible to send e-mails.
