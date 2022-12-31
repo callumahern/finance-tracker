@@ -6,6 +6,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.4'
 gem 'bootsnap', require: false
 gem 'devise'
+gem 'devise-bootstrap-views', '~> 1.0'
+gem 'iex-ruby-client'
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'puma', '~> 5.0'
@@ -18,8 +20,6 @@ gem 'stimulus-rails'
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'webpacker'
-gem 'devise-bootstrap-views', '~> 1.0'
-gem 'iex-ruby-client'
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
