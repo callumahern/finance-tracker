@@ -8,6 +8,7 @@ gem 'bootsnap', require: false
 gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'iex-ruby-client'
+gem 'font-awesome-rails'
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'puma', '~> 5.0'
